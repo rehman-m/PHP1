@@ -71,14 +71,22 @@
     </div>
 <div class="container-fluid bg-black  p-5 ">
     <div class-="row">
-       <div class="col-4 text-light ms-5">Contact gegevens</div>
-    <div class="col-4 text-light ms-5">Restaurant ZuZu</div>
-    <div class="col-4 text-light ms-5">Appelstraat 1</div>
-    <div class="col-4 text-light ms-5">1111A Fruit</div>
-    <div class="col-4 text-light ms-5"> ZuZu@gmail.com</div>
-
+        <div class="col-4 text-light ms-5">Contact gegevens</div>
+        <div class="col-4 text-light ms-5">Restaurant ZuZu</div>
+        <div class="col-4 text-light ms-5">Appelstraat 1</div>
+        <div class="col-4 text-light ms-5">1111A Fruit</div>
+        <div class="col-4 text-light ms-5"> ZuZu@gmail.com</div>
 
     </div>
+   
+        <div class="col-4 text-light ms-5">Contact gegevens</div>
+        <div class="col-4 text-light ms-5">Restaurant ZuZu</div>
+        <div class="col-4 text-light ms-5">Appelstraat 1</div>
+        <div class="col-4 text-light ms-5">1111A Fruit</div>
+        <div class="col-4 text-light ms-5"> ZuZu@gmail.com</div>
+
+
+
 
 
 </div>
