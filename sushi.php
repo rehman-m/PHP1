@@ -6,16 +6,15 @@
 </head>
 <body>
 <div class="container-fluid bg-dark">
-    <ul class="nav nav-fill">
-
+    <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link text-light " role="button">ZUZU </a>
+            <a class="nav-link active text-light" aria-current="page" href="#">ZUZU</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light " role="button">Home</a>
+            <a class="nav-link text-light" href="#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" role="button">Bestellen</a>
+            <a class="nav-link text-light" href="#">Bestellen</a>
         </li>
 
     </ul>
@@ -25,7 +24,7 @@
 <div class= "container-fluid">
     <div>
         <div class="col-12">
-            <img src="imgs/vertical.jpg" height= 25% width=100%>
+            <img src="imgs/sushi-36.jpg" height= 25% width=100%>
         </div>
     </div>
 </div>
@@ -77,17 +76,13 @@
         <div class="col-4 text-light ms-5">1111A Fruit</div>
         <div class="col-4 text-light ms-5"> ZuZu@gmail.com</div>
 
+      
+
+
+
+
     </div>
    
-        <div class="col-4 text-light ms-5">Contact gegevens</div>
-        <div class="col-4 text-light ms-5">Restaurant ZuZu</div>
-        <div class="col-4 text-light ms-5">Appelstraat 1</div>
-        <div class="col-4 text-light ms-5">1111A Fruit</div>
-        <div class="col-4 text-light ms-5"> ZuZu@gmail.com</div>
-
-
-
-
 
 </div>
 
