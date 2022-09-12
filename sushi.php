@@ -65,24 +65,34 @@
 
         </div>
 
-
-
     </div>
+
 <div class="container-fluid bg-black  p-5 ">
-    <div class-="row">
-        <div class="col-4 text-light ms-5">Contact gegevens</div>
-        <div class="col-4 text-light ms-5">Restaurant ZuZu</div>
-        <div class="col-4 text-light ms-5">Appelstraat 1</div>
-        <div class="col-4 text-light ms-5">1111A Fruit</div>
-        <div class="col-4 text-light ms-5"> ZuZu@gmail.com</div>
+    <div class="row">
+        <div class="col-7 text-light ms-5">
+            <p>Contact gegevens</p>
+            <p>Restaurant ZUZU</p>
+            <p>Appelstraat 4 </p>
+            <p>1111AA FRUIT</p>
+            <p>ZUZU@gmail.com</p>
+            <p>06-465545</p>
 
-      
+        </div>
+        <div class="col-4 text-light ms-5">
+            <p>Openingstijden</p>
+            <p>Maandag: Gesloten</p>
+            <p>Dinsdag : 16:00-22:00</p>
+            <p>Woensdag : 16:00-22:00</p>
+            <p>Donderdag : 16:00-22:00</p>
+            <p>Vrijdag : 15:00-22:00</p>
+            <p>Zaterdag : 15:00-22:00</p>
+            <p> Vrijdag : Gesloten </p>
 
-
-
-
+        </div>
     </div>
-   
+
+</div>
+
 
 </div>
 
