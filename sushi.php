@@ -67,7 +67,7 @@
 
     </div>
 
-<div class="container-fluid bg-black  p-5 ">
+<div class="container-fluid bg-black  p-3 mt-4">
     <div class="row">
         <div class="col-7 text-light ms-5">
             <p>Contact gegevens</p>

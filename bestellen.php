@@ -45,26 +45,25 @@
 
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputPassword1">Maki Avacado</label>
+            <label for="maki">Maki Avacado</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputEmail1">Nigiri zalm</label>
+            <label for="zalm">Nigiri zalm</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
 
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputPassword1">Philadelphia roll</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            <label for="roll "  class="form-control" id="exampleInputPassword1" placeholder="">
         </div>
 
         <div class="form-group mt-3">
-            <label for="exampleInputEmail1">Spicy Tuna roll</label>
+            <label for="roll">Spicy Tuna roll</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
 
         </div>
         <div class="form-group mt-3 ">
-            <label for="exampleInputPassword1">California roll</label>
+            <label for="roll">California roll</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
         </div>
 
