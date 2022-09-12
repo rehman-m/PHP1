@@ -11,7 +11,7 @@
             <a class="nav-link active text-light" aria-current="page" href="#">ZUZU</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="#">Home</a>
+            <a class="nav-link text-light" href="sushi.php">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-light" href="#">Bestellen</a>
@@ -41,31 +41,31 @@
     <form>
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Maki komkommer</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
 
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputPassword1">Maki Avacado</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Nigiri zalm</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
 
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputPassword1">Philadelphia roll</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
         </div>
 
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Spicy Tuna roll</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
 
         </div>
         <div class="form-group mt-3 ">
             <label for="exampleInputPassword1">California roll</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
         </div>
 
         <button  class="btn btn-dark mt-4">

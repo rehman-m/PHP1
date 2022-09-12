@@ -11,7 +11,7 @@
             <a class="nav-link active text-light" aria-current="page" href="#">ZUZU</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="#">Home</a>
+            <a class="nav-link text-light" href="sushi.php">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-light" href="#">Bestellen</a>
@@ -40,13 +40,13 @@
 
     <form>
         <div class="form-group mt-3">
-            <label for="ingredients"></label>
-            <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="ingredients">Voornaam</label>
+            <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Voornaam">
 
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputPassword1">Achternaam</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Achternaam">
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Email address</label>
@@ -55,17 +55,17 @@
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputPassword1">Adres</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Adres">
         </div>
 
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Postcode</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Postcode">
 
         </div>
         <div class="form-group mt-3">
             <label for="exampleInputPassword1">Woonplaats</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Woonplaats">
         </div>
 
         <button  class="btn btn-dark  mt-4">
