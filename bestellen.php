@@ -1,3 +1,4 @@
+
 <!DOCTYPE>
 
 <html>
@@ -38,38 +39,34 @@
         </div>
     </div>
 
-    <form>
+    <form  action="besteld.php" method="post">
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Maki komkommer</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <input type="text" class="form-control" name="komkommer"  >
 
         </div>
         <div class="form-group mt-3">
             <label for="maki">Maki Avacado</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            <input type="text" class="form-control"  name="avacado" >
         </div>
         <div class="form-group mt-3">
             <label for="zalm">Nigiri zalm</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <input type="text" class="form-control" name="zalm" >
 
         </div>
-        <div class="form-group mt-3">
-            <label for="roll "  class="form-control" id="exampleInputPassword1" placeholder="">
-        </div>
+
 
         <div class="form-group mt-3">
             <label for="roll">Spicy Tuna roll</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <input type="text" class="form-control" name="spicytuna" >
 
         </div>
         <div class="form-group mt-3 ">
             <label for="roll">California roll</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            <input type="text" class="form-control" name="cali" >
         </div>
 
-        <button  class="btn btn-dark mt-4">
-            <a  class="text-light" href="bestellen.php">Verzenden</a>
-        </button>
+        <input  class="btn btn-dark  mt-4" type="submit" value="Bestellen" name="Bestellen">
 
 
     </form>

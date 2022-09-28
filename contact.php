@@ -1,7 +1,12 @@
+<?php
+
+
+?>
+
 <!DOCTYPE>
 
 <html>
-<head> <!-- CSS only -->
+<head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
@@ -38,39 +43,38 @@
         </div>
     </div>
 
-    <form>
+    <form action="besteld.php" method="post">
         <div class="form-group mt-3">
             <label for="ingredients">Voornaam</label>
-            <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Voornaam">
+            <input type="" class="form-control"  name="voornaam" placeholder="Voornaam">
 
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputPassword1">Achternaam</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Achternaam">
+            <label for="">Achternaam</label>
+            <input type="text" class="form-control"  name="achternaam" placeholder="Achternaam">
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="">Email address</label>
+            <input type="email" class="form-control"  name="e-mail" placeholder="Enter email">
 
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputPassword1">Adres</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Adres">
+            <label for="">Adres</label>
+            <input type="text" class="form-control" name="address" placeholder="Adres">
         </div>
 
         <div class="form-group mt-3">
-            <label for="exampleInputEmail1">Postcode</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Postcode">
+            <label for="">Postcode</label>
+            <input type="email" class="form-control"  name="postcode" placeholder="Postcode">
 
         </div>
         <div class="form-group mt-3">
-            <label for="exampleInputPassword1">Woonplaats</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Woonplaats">
+            <label for="">Woonplaats</label>
+            <input type="text" class="form-control" name="woonplaats" placeholder="Woonplaats">
         </div>
 
-        <button  class="btn btn-dark  mt-4">
-            <a class="text-light" href="bestellen.php">Ga naar sushi's</a>
-        </button>
+        <input  class="btn btn-dark  mt-4" type="submit" value="Ga Naar Sushis">
+
 
 
     </form>
