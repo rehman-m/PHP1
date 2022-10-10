@@ -63,7 +63,21 @@ values(?,?,?,?,?,?)");
         $conn->close();
     }
     ?>
+<?php
+$firstname=$_POST['voor'];
+$lastname=$_POST['achter'];
+$adres=$_POST['adres'];
+$email=$_POST['email'];
+$post=$_POST['postcode'];
+$city=$_POST['staad'];
 
+echo "<h5>".$firstname."</h5>" ."<br>"."<h5>".$lastname."</h5>"."<br>". "<h5>"."$adres"."</h5>"
+    ."<br>". "<h5>".$email."</h5>"."<br>". "<h5>"."$post"."</h5>"."<br>". "<h5>"."</h5>";
+
+
+
+
+?>
 
 
 
