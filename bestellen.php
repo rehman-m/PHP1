@@ -2,7 +2,7 @@
 <!DOCTYPE>
 
 <html>
-<head> <!-- CSS only -->
+<head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
@@ -42,28 +42,28 @@
     <form  action="besteld.php" method="post">
         <div class="form-group mt-3">
             <label for="exampleInputEmail1">Maki komkommer</label>
-            <input type="text" class="form-control" name="komkommer"  >
+            <input type="number" class="form-control" name="komkommer"  >
 
         </div>
         <div class="form-group mt-3">
             <label for="maki">Maki Avacado</label>
-            <input type="text" class="form-control"  name="avacado" >
+            <input type="number" class="form-control"  name="avacado" >
         </div>
         <div class="form-group mt-3">
             <label for="zalm">Nigiri zalm</label>
-            <input type="text" class="form-control" name="zalm" >
+            <input type="number" class="form-control" name="zalm" >
 
         </div>
 
 
         <div class="form-group mt-3">
             <label for="roll">Spicy Tuna roll</label>
-            <input type="text" class="form-control" name="spicytuna" >
+            <input type="number" class="form-control" name="spicytuna" >
 
         </div>
         <div class="form-group mt-3 ">
             <label for="roll">California roll</label>
-            <input type="text" class="form-control" name="cali" >
+            <input type="number" class="form-control" name="cali" >
         </div>
 
         <input  class="btn btn-dark  mt-4" type="submit" value="Bestellen" name="Bestellen">

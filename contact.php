@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 
 
 ?>
@@ -45,39 +47,55 @@
 
     <form action="besteld.php" method="post">
         <div class="form-group mt-3">
-            <label for="ingredients">Voornaam</label>
-            <input type="" class="form-control"  name="voornaam" placeholder="Voornaam">
+            <label for="validationTooltip01" class="form-label">Voornaam</label>
+            <input type="text"  name="voor" class="form-control" id="validationTooltip01"  required>
 
         </div>
         <div class="form-group mt-3">
-            <label for="">Achternaam</label>
-            <input type="text" class="form-control"  name="achternaam" placeholder="Achternaam">
+            <label for="validationTooltip01" class="form-label">Achternaam</label>
+            <input type="text" name="achter" class="form-control" id="validationTooltip01"  required>
         </div>
         <div class="form-group mt-3">
             <label for="">Email address</label>
-            <input type="email" class="form-control"  name="e-mail" placeholder="Enter email">
+            <input type="email" class="form-control"  name="email" placeholder="Enter email">
 
         </div>
         <div class="form-group mt-3">
-            <label for="">Adres</label>
-            <input type="text" class="form-control" name="address" placeholder="Adres">
+            <label for="validationTooltip03" class="form-label">Adres</label>
+            <input type="text"  name="adres" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Vul dit in aub.
+            </div>
+
         </div>
 
         <div class="form-group mt-3">
-            <label for="">Postcode</label>
-            <input type="email" class="form-control"  name="postcode" placeholder="Postcode">
+            <label for="validationTooltip03" class="form-label">Postcode</label>
+            <input type="text" name="postcode" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+                Vul dit in aub.
+            </div>
+
 
         </div>
         <div class="form-group mt-3">
-            <label for="">Woonplaats</label>
-            <input type="text" class="form-control" name="woonplaats" placeholder="Woonplaats">
+            <label for="validationTooltip03" class="form-label">Woonplaats</label>
+            <input type="text" name="staad" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+                Vul dit in aub.
+            </div>
+
         </div>
 
-        <input  class="btn btn-dark  mt-4" type="submit" value="Ga Naar Sushis">
+        <input  class="btn btn-dark mt-4" name="submit" type="submit" value="Ga Naar Sushis">
 
 
 
     </form>
+
+
+
+
 </div>
 
 
