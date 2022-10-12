@@ -66,9 +66,11 @@ values(?,?,?,?,?,?)");
     }
     ?>
 <?php
+session_start();
 
 
 $firstname=$_POST['voor'];
+
 $lastname=$_POST['achter'];
 $adres=$_POST['adres'];
 $email=$_POST['email'];

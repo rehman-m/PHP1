@@ -30,7 +30,17 @@
 </div>
 
 <div class="container-md ">
-    <header class=" fs-1 text-center mt-5" >Goedemiddag, welkom bij ZuZu </header>
+    <header class=" fs-1 text-center mt-5" >
+    <?php
+
+    $date = date("G");
+    switch($date){
+    case $date >= 6 && $date <= 12: echo "GoedeMorgen, welkom bij ZuZu."; break;
+    case $date >= 13 && $date < 18: echo "Goedemiddag, welkom bij ZuZu."; break;
+    default: echo "Goedenavond, welkom bij ZuZu."; break; }
+        ?>
+
+    </header>
 </div>
 <div class="container-md">
     <p class=" text-center ">Wij zijn gespecialiseerd in de Japnese keuken.<br> Het Woord "sushi is afkomstig van "su",wat azijn betekent. en "shi" Rijst.</p>
@@ -46,7 +56,7 @@
 
         ?>
 
-        <br> Bezorgtijd vanaf nu :18:00</p>
+        <br> Bezorgtijd vanaf nu  <?php echo date("H") + 2 . ":" .date("i"); ?> </p>
 </div>
 
 

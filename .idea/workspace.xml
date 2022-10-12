@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf2c0fe9-ca84-4e0f-91bd-7c0a54d8f8cf" name="Changes" comment="Datum en Dagen" />
+    <list default="true" id="cf2c0fe9-ca84-4e0f-91bd-7c0a54d8f8cf" name="Changes" comment="Datum en Dagen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/besteld.php" beforeDir="false" afterPath="$PROJECT_DIR$/besteld.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665565629864</updated>
-      <workItem from="1665565631513" duration="2466000" />
+      <workItem from="1665565631513" duration="3541000" />
     </task>
     <task id="LOCAL-00001" summary="Datum en Dagen">
       <created>1665567498315</created>
@@ -47,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665567498315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Datum en Dagen">
+      <created>1665568216619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665568216619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
