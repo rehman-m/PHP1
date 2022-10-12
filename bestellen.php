@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 <!DOCTYPE>
 
 <html>
@@ -41,29 +43,29 @@
 
     <form  action="besteld.php" method="post">
         <div class="form-group mt-3">
-            <label for="exampleInputEmail1">Maki komkommer</label>
-            <input type="number" class="form-control" name="komkommer"  >
+            <label for="">Maki komkommer</label>
+            <input type="number" name="komkommer" class="form-control" id="validationTooltip03" required  >
 
         </div>
         <div class="form-group mt-3">
             <label for="maki">Maki Avacado</label>
-            <input type="number" class="form-control"  name="avacado" >
+            <input type="number" class="form-control"  name="avacado" id="validationTooltip03" required  >
         </div>
         <div class="form-group mt-3">
             <label for="zalm">Nigiri zalm</label>
-            <input type="number" class="form-control" name="zalm" >
+            <input type="number" class="form-control" name="zalm" id="validationTooltip03" required >
 
         </div>
 
 
         <div class="form-group mt-3">
             <label for="roll">Spicy Tuna roll</label>
-            <input type="number" class="form-control" name="spicytuna" >
+            <input type="number" class="form-control" name="spicytuna" id="validationTooltip03" required  >
 
         </div>
         <div class="form-group mt-3 ">
             <label for="roll">California roll</label>
-            <input type="number" class="form-control" name="cali" >
+            <input type="number" class="form-control" name="cali"  id="validationTooltip03" required >
         </div>
 
         <input  class="btn btn-dark  mt-4" type="submit" value="Bestellen" name="Bestellen">
@@ -113,3 +115,5 @@
 </html>
 
 <?php
+session_destroy();
+?>

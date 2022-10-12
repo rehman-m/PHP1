@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 
 <!DOCTYPE html>
 <html>
@@ -54,7 +56,7 @@
     if($conn->connect_error){
         die('Connection failed: '. $conn->connect_error);
     } else {
-        $stmt= $conn-> prepare("insert into test(firstName, lastName ,adres, email, post, city)
+        $stmt= $conn-> prepare("insert into zuzu(firstName, lastName ,adres, email, post, city)
 values(?,?,?,?,?,?)");
         $stmt->bind_param("sssssi",$firstname ,$lastname ,$adres,$email,$post,$city);
         $stmt-> execute();
@@ -64,6 +66,8 @@ values(?,?,?,?,?,?)");
     }
     ?>
 <?php
+
+
 $firstname=$_POST['voor'];
 $lastname=$_POST['achter'];
 $adres=$_POST['adres'];

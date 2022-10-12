@@ -136,3 +136,5 @@ session_start();
 </html>
 
 <?php
+session_destroy();
+?>
