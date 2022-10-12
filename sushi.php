@@ -35,8 +35,18 @@
 <div class="container-md">
     <p class=" text-center ">Wij zijn gespecialiseerd in de Japnese keuken.<br> Het Woord "sushi is afkomstig van "su",wat azijn betekent. en "shi" Rijst.</p>
 </div>
-<div class="container-md">
-    <p class="fs-5 text-center "> Vandaag dinsdag 23 augustus 2022 <br> Bezorgtijd vanaf nu :18:00</p>
+<div class="container">
+    <p class="fs-5 text-center ">
+
+        <?php
+        $today =date ("j M Y");
+        $day =date ("l");
+        echo "Vandaag "."<br>". $day .":" . $today ;
+
+
+        ?>
+
+        <br> Bezorgtijd vanaf nu :18:00</p>
 </div>
 
 
