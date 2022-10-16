@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ session_start();
             <a class="nav-link text-light" href="sushi.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="#">Bestellen</a>
+            <a class="nav-link text-light" href="contact.php">Bestellen</a>
         </li>
 
     </ul>
@@ -39,12 +39,28 @@ session_start();
         </div>
     </div>
     <?php
-    $firstname= $_POST['voor'];
-    $lastname= $_POST['achter'];
-    $adres= $_POST['adres'];
-    $email=$_POST['email'];
-    $post= $_POST['postcode'];
-    $city= $_POST['staad'];
+session_start();
+
+    $firstname= $_SESSION['voor'];
+    $_SESSION['voor']  = $_POST['voor'];
+
+    $lastname= $_SESSION['achter'];
+    $_SESSION['achter']=$_POST['achter'];
+
+
+    $adres= $_SESSION['adres'];
+    $_SESSION['adres']=$_POST['adres'];
+
+
+    $email=$_SESSION['email'];
+    $_SESSION['email']=$_POST['email'];
+
+
+    $post= $_SESSION['postcode'];
+    $_SESSION['postcode']=$_POST['postcode'];
+
+    $city= $_SESSION['staad'];
+    $_SESSION['staad']=$_POST['staad'];
 
     $host = "localhost";
     $dbUsername="root";
@@ -65,8 +81,9 @@ values(?,?,?,?,?,?)");
         $conn->close();
     }
     ?>
+
 <?php
-session_start();
+
 
 
 $firstname=$_POST['voor'];

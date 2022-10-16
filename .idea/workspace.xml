@@ -4,8 +4,9 @@
     <list default="true" id="cf2c0fe9-ca84-4e0f-91bd-7c0a54d8f8cf" name="Changes" comment="Datum en Dagen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/besteld.php" beforeDir="false" afterPath="$PROJECT_DIR$/besteld.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bestellen.php" beforeDir="false" afterPath="$PROJECT_DIR$/bestellen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuzu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/zuzu.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +45,11 @@
       <option name="presentableId" value="Default" />
       <updated>1665565629864</updated>
       <workItem from="1665565631513" duration="3541000" />
+      <workItem from="1665943910550" duration="799000" />
+      <workItem from="1665944852312" duration="87000" />
+      <workItem from="1665947640770" duration="96000" />
+      <workItem from="1665947868701" duration="289000" />
+      <workItem from="1665948248345" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="Datum en Dagen">
       <created>1665567498315</created>
