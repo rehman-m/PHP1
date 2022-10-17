@@ -1,17 +1,17 @@
 <!DOCTYPE>
 
 <html>
-<head> <!-- CSS only -->
+<head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
 <div class="container-fluid bg-dark">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#">ZUZU</a>
+            <a class="nav-link active text-light" aria-current="page" href="sushi.php">ZUZU</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="#">Home</a>
+            <a class="nav-link text-light" href="sushi.php">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-light" href="contact.php">Bestellen</a>
@@ -87,34 +87,30 @@
 
     </div>
 
-<div class="container-fluid bg-black  p-3 mt-4">
-    <div class="row">
-        <div class="col-7 text-light ms-5">
-            <p>Contact gegevens</p>
-            <p>Restaurant ZUZU</p>
-            <p>Appelstraat 4 </p>
-            <p>1111AA FRUIT</p>
-            <p>ZUZU@gmail.com</p>
-            <p>06-465545</p>
-
+<footer class="bottom-0 container-fluid bg-dark">
+    <div class=" container-fluid text-center text-light">
+        <div class="row">
+            <div class="col my-4">
+                <p class="m-0"><strong>Contactgegevens</strong></p>
+                <p class="m-0">Restaurant ZuZu</p>
+                <p class="m-0">Appelstraat 1</p>
+                <p class="m-0">1111a Fruit</p>
+                <p class="m-0">zuzu@gmail.com</p>
+                <p class="m-0">06-12345678</p>
+            </div>
+            <div class="col mt-4">
+                <p class="m-0"><strong>Openingstijden</strong></p>
+                <p class="m-0">Maandag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+                <p class="m-0">Dinsdag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+                <p class="m-0">Woensdag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+                <p class="m-0">Donderdag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+                <p class="m-0">Vrijdag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+                <p class="m-0">Zaterdag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+                <p class="m-0">Zondag: <?php echo date("H") + 2 . ":" .date("i"); ?></p>
+            </div>
         </div>
-        <div class="col-4 text-light ms-5">
-            <p>Openingstijden</p>
-            <p>Maandag: Gesloten</p>
-            <p>Dinsdag : 16:00-22:00</p>
-            <p>Woensdag : 16:00-22:00</p>
-            <p>Donderdag : 16:00-22:00</p>
-            <p>Vrijdag : 15:00-22:00</p>
-            <p>Zaterdag : 15:00-22:00</p>
-            <p> Vrijdag : Gesloten </p>
-
-        </div>
-    </div>
-
-</div>
-
-
-</div>
+        <div>
+</footer>
 
 </body>
 </html>
