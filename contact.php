@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
             <a class="nav-link text-light" href="sushi.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="#">Bestellen</a>
+            <a class="nav-link text-light" href="contact.php">Bestellen</a>
         </li>
 
     </ul>
@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
 </div>
 
 <section class=" container-fluid " style="
-            background: url('img/headerimage.png');
+            background: url('img/sushi-36.jpg');
             background-size: cover;">
     <div class="col-12">
     <img src="imgs/sushi-36.jpg" height= 25% width=100%>
