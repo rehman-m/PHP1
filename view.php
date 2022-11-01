@@ -28,7 +28,7 @@
 
 <nav class="navbar position-sticky top-0 navbar-expand-lg navbar-light bg-dark ">
 	<div class="container-fluid">
-		<a class="navbar-brand text-light" href="sushi.php">ZUZU</a>
+		<a class="navbar-brand text-light" href="home.php">ZUZU</a>
 		<button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
 		        data-bs-target="#navbarNavAltMarkup"
 		        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
-				<a class="nav-link active text-light" aria-current="page" href="sushi.php">Home</a>
+				<a class="nav-link active text-light" aria-current="page" href="home.php">Home</a>
 				<a class="nav-link active text-light" href="contact.php">Bestellen</a>
 			</div>
 		</div>

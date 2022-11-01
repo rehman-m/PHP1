@@ -147,10 +147,10 @@ if(isset($_POST["submit"])){
 <div class="container-fluid bg-dark">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="sushi.php">ZUZU</a>
+            <a class="nav-link active text-light" aria-current="page" href="home.php">ZUZU</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="sushi.php">Home</a>
+            <a class="nav-link text-light" href="home.php">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-light" href="contact.php">Bestellen</a>

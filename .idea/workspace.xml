@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf2c0fe9-ca84-4e0f-91bd-7c0a54d8f8cf" name="Changes" comment="Datum en Dagen">
+    <list default="true" id="cf2c0fe9-ca84-4e0f-91bd-7c0a54d8f8cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bestellen.php" beforeDir="false" afterPath="$PROJECT_DIR$/bestellen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,8 @@
       <workItem from="1665990772310" duration="1429000" />
       <workItem from="1667248425818" duration="46000" />
       <workItem from="1667334668154" duration="28000" />
-      <workItem from="1667335997211" duration="206000" />
+      <workItem from="1667335997211" duration="344000" />
+      <workItem from="1667336443109" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="Datum en Dagen">
       <created>1665567498315</created>
@@ -66,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665568216619</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Datum en Dagen">
+      <created>1667336220870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667336220870</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Datum en Dagen">
+      <created>1667336237319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667336237319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
